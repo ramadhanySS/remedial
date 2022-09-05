@@ -8,7 +8,7 @@ function Section() {
     <section className="page-2">
       <div className="our">
         <div className="girl">
-          <img className="girls" src={pic2} style={{ maxWidth: "600px" }} />
+          <img className="girls" src={pic2} style={{ maxWidth: "600px" }} alt="foto" />
           {/* <span class="dot-1"></span>
                 <span className="dot-2"></span>
                 <span className="dot-3"></span> */}
@@ -28,23 +28,23 @@ function Section() {
             </div>
             <ul className="list">
               <ul>
-                <img className="checkList" src={checkList} />
+                <img className="checkList" src={checkList} alt="foto" />
                 <p className="point">Sewa Mobil Dengan Supir di Bali 12 Jam</p>
               </ul>
               <ul>
-                <img className="checkList" src={checkList} />
+                <img className="checkList" src={checkList} alt="foto" />
                 <p className="point">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
               </ul>
               <ul>
-                <img className="checkList" src={checkList} />
+                <img className="checkList" src={checkList} alt="foto" />
                 <p className="point">Sewa Mobil Jangka Panjang Bulanan</p>
               </ul>
               <ul>
-                <img className="checkList" src={checkList} />
+                <img className="checkList" src={checkList} alt="foto" />
                 <p className="point">Gratis Antar - Jemput Mobil di Bandara</p>
               </ul>
               <ul>
-                <img className="checkList" src={checkList} />
+                <img className="checkList" src={checkList} alt="foto" />
                 <p className="point">Layanan Airport Transfer / Drop In Out</p>
               </ul>
             </ul>

@@ -17,7 +17,7 @@ function Hero() {
             <button>WATCH NOW</button>
           </div>
           <div className="image">
-            <img src={Valorant} />
+            <img src={Valorant} alt="valorant" />
           </div>
         </div>
       </div>
