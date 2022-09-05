@@ -1,0 +1,159 @@
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background-color: gray;
+
+    .navbar-brand span {
+        font-size: 30px;
+        font-weight: 700;
+        color: orange;
+    }
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.hero {
+    min-height: 500px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+}
+
+.text-hero {
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
+}
+
+.btn-shop {
+    width: 170px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.icons-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        i {
+            margin-right: 10px;
+            color: whitesmoke;
+        }
+
+        h6 {
+            font-size: 15px;
+            color: white;
+
+            span {
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+}
+
+.hero-img img {
+    height: 563px;
+}
+
+.item-special {
+    position: relative;
+    height: 276px;
+
+    .card {
+        background-color: gray;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .img-special {
+        position: relative;
+        bottom: 0;
+    }
+
+    .desc-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .name-star {
+            p.name-product {
+                font-size: 18px;
+                font-weight: 500;
+                color: rgb(95, 73, 73);
+            }
+        }
+
+        .disc-price {
+            .disc {
+                font-size: 13px;
+                color: orange;
+            }
+
+            .price {
+                font-size: 16px;
+                color: gray;
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 1px solid gray;
+    padding-top: 50px;
+    margin-top: 200px;
+    background-color: rgba(33,37,41)!important;
+
+    span.brand {
+        font-size: 26px;
+        font-weight: 700;
+        color: orange;
+    }
+
+    .brand-tagline {
+        margin-top: 8px;
+        color: gray;
+        font-weight: 300;
+    }
+
+    .list-group-item {
+        padding: 0.3125rem 0;
+        border: 0;
+        background-color: transparent;
+        color: gray;
+        font-weight: 300;
+        cursor: pointer;
+
+
+        // @include hover-focus {
+        //     color: primary;
+
+        // }
+    }
+
+    .copyrights {
+        margin: 50px 0;
+        font-weight: 300;
+        color: gray;
+    }
+}

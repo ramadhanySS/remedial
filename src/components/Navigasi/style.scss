@@ -1,0 +1,44 @@
+.Navigasi {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+    background-color: transparent;
+
+
+    .bar{
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 136px;
+        background-color: blue;
+        width: 60px;
+        color: white;
+        height: 25px;
+    }
+
+    .link {
+        width: 100%;
+        margin-left: 200px;
+    }
+
+    li {
+        padding-left: 20px;
+        display: inline;
+    }
+
+    button {
+        border-radius: 20px;
+        background-color: rgb(209 54 57);
+        position: relative;
+        text-align: center;
+        width: 120px;
+        z-index: 0;
+        color: #111;
+        
+    }
+    
+    Form.Control{
+        border-radius: 20px;
+    }
+}
